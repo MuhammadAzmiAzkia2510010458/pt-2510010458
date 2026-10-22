@@ -231,4 +231,4 @@ Folder `p06` di repository `pt-NPM` berisi `sinilai_v05.cpp`. Lihat Modul Pertem
 ## Deklarasi AI
 
 Tuliskan AI yang digunakan, prompt, dan umpan balik AI     
-Tidak Ada
+Tidak Memakai AI
