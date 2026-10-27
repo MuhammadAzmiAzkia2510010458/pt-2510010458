@@ -11,27 +11,32 @@ int main() {
     //         Nama bisa lebih dari satu kata. NPM adalah deretan angka yang tidak pernah
     //         dihitung, dan bisa diawali 0, jadi pikirkan tipe yang tepat.
     string nama;
-    string npm = "2510010458";
+    string npm;
     // TODO 2: deklarasikan empat variabel nilai: kehadiran, mingguan, uts, uas.
     //         Nilai bisa berisi pecahan seperti 85.5.
-    int kehadiran = 100;
-    double mingguan = 85.5;
-    double nilai_uts = 80;
-    double nilai_uas = 85.5;
+    double kehadiran = 0;
+    double mingguan = 0;
+    double nilai_uts = 0;
+    double nilai_uas = 0;
 
     cout << "=== SiNilai v0.1 ===\n";
     cout << "Nama           : ";
     getline(cin, nama);
     // TODO 3: baca nama. Ingat, nama bisa mengandung spasi.
 
-    cout << "NPM            : " << npm << "\n";
+    cout << "NPM            : ";
+    cin >> npm;
     // TODO 4: baca NPM.
 
     // TODO 5: baca keempat komponen nilai, satu per satu, dengan prompt seperti di atas.
-    cout << "Kehadiran      : " << kehadiran << "\n";
-    cout << "Nilai Mingguan : " << mingguan << "\n";
-    cout << "Nilai UTS      : " << nilai_uts << "\n";
-    cout << "Nilai UAS      : " << nilai_uas << "\n";
+    cout << "Kehadiran      : ";
+    cin >> kehadiran;
+    cout << "Nilai Mingguan : ";
+    cin >> mingguan;
+    cout << "Nilai UTS      : ";
+    cin >> nilai_uts;
+    cout << "Nilai UAS      : ";
+    cin >> nilai_uas;
 
     cout << "\n--- Kartu Data Mahasiswa ---\n";
     // TODO 6: tampilkan semua data yang tadi dibaca, satu baris per data, rata seperti prompt.
