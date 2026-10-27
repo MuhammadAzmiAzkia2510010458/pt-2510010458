@@ -17,7 +17,7 @@ int main() {
     double kehadiran = 0;
     double mingguan = 0;
     double nilai_uts = 0;
-    double nilai_uas = 0;
+    double nilai_uas = 23;
 
     cout << "=== SiNilai v0.1 ===\n";
     cout << "Nama           : ";
