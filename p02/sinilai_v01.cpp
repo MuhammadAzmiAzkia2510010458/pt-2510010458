@@ -11,13 +11,13 @@ int main() {
     //         Nama bisa lebih dari satu kata. NPM adalah deretan angka yang tidak pernah
     //         dihitung, dan bisa diawali 0, jadi pikirkan tipe yang tepat.
     string nama;
-    string npm = "2510010458";
+    string npm;
     // TODO 2: deklarasikan empat variabel nilai: kehadiran, mingguan, uts, uas.
     //         Nilai bisa berisi pecahan seperti 85.5.
-    double kehadiran = 100;
-    double mingguan = 85.5;
-    double nilai_uts = 78;
-    double nilai_uas = 80;
+    double kehadiran = 0;
+    double mingguan = 0;
+    double nilai_uts = 0;
+    double nilai_uas = 0;
 
     cout << "=== SiNilai v0.1 ===\n";
     cout << "Nama           : ";
