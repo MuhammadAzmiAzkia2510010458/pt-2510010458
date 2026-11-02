@@ -1,0 +1,4 @@
+# Hasil build tidak ikut disimpan ke Git
+*.exe
+*.o
+*.out
