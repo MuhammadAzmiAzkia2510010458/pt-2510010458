@@ -1,0 +1,12 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ -std=c++20 -Wall -Wextra -Wpedantic -g $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.terminalRoot": "/",
+  "C_Cpp.debugShortcut": false
+}
